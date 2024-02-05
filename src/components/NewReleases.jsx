@@ -11,9 +11,9 @@ const NewReleases = () => {
     raised: "$9510"
   }];
   return (
-    <div className="h-[846px] w-full bg-white px-[80px] border border-zinc-300">
+    <div className="md:h-[846px] h-fit w-full bg-white px-[10px] md:px-[80px] md:border border-zinc-300">
       <Dashboard/>
-      <div className="mt-36 grid grid-cols-4 space-x-1">
+      <div className="md:mt-36 mt-10 grid grid-cols-1 md:grid-cols-4 md:space-x-1 space-y-2">
         <div className="relative h-[312px] w-[283.64px] rounded-3xl bg-gray-200 cursor-pointer">
           <div className="text-neutral-450 opacity-55 text-4xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"><FaPlus/></div>
           <p className="absolute px-[38px] bottom-8 text-sm font-Inter font-light text-neutral-400 text-center">You haven’t uploaded any videos with aBit yet. Add now!</p>
