@@ -2,10 +2,11 @@ import React from "react";
 import { FaPlus } from "react-icons/fa6";
 import Token from "./Token";
 import Dashboard from "./Dashboard";
+import releaseCover from "../../public/releaseCover.png";
 const NewReleases = () => {
   const releases = [{
     title: "The Sound of Silence",
-    imageUrl: "/public/releaseCover.png",
+    imageUrl: releaseCover,
     shares: "317",
     offered: "75%",
     raised: "$9510"
@@ -18,7 +19,7 @@ const NewReleases = () => {
           <div className="text-neutral-450 opacity-55 text-4xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"><FaPlus/></div>
           <p className="absolute px-[38px] bottom-8 text-sm font-Inter font-light text-neutral-400 text-center">You haven’t uploaded any videos with aBit yet. Add now!</p>
         </div>
-        {releases.map((release)=><Token title={release.title} imageUrl={release.imageUrl} offered={release.offered} raised={release.raised} />)}
+        {releases.map((release, index)=><Token key={index} title={release.title} imageUrl={release.imageUrl} offered={release.offered} raised={release.raised} />)}
       </div>
     </div>
   );

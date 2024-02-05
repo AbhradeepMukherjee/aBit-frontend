@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import { IoNotificationsSharp, IoWallet } from "react-icons/io5";
 import { MdOutlineExpandMore } from "react-icons/md";
 import { IoMdMenu } from "react-icons/io";
+import header from '../../public/header.jpg'
 const Header = ({ imageUrl }) => {
   const [show, setShow] = useState(false);
   return (
     <div
       className="w-full h-[90px] md:pl-[123px] pl-[10px] md:pr-[60px] pr-[10px] flex justify-between items-center text-black bg-cover bg-center border border-b-black border-transparent opacity-95"
-      style={{ backgroundImage: 'url("/public/header.jpg")' }}
+      style={{ backgroundImage: `url(${header})` }}
     >
       <div className="w-[46px] h-[29px] font-Inter text-2xl font-semibold text-neutral-800 cursor-pointer">
         aBit

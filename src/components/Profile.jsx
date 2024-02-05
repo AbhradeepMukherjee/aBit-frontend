@@ -1,8 +1,9 @@
+import header from '../../public/header.jpg'
 const Profile = ({ imageUrl, title, channel }) => {
   return (
     <div
       className="absolute md:w-[571px] md:h-[234px] w-fit h-fit rounded-3xl md:top-[436px] top-[460px] md:left-[83px] z-10 flex bg-cover border border-black drop-shadow-xl"
-      style={{ backgroundImage: 'url("/public/header.jpg")' }}
+      style={{ backgroundImage: `url(${header})` }}
     >
       <img
         src={imageUrl}
