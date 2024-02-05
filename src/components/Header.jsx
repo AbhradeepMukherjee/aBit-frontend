@@ -9,7 +9,7 @@ const Header = ({ imageUrl }) => {
       className="w-full h-[90px] md:pl-[123px] pl-[10px] md:pr-[60px] pr-[10px] flex justify-between items-center text-black bg-cover bg-center border border-b-black border-transparent opacity-95"
       style={{ backgroundImage: 'url("../../public/header.jpg")' }}
     >
-      <div className="w-[46px] h-[29px] font-Inter text-2xl font-semibold text-neutral-800">
+      <div className="w-[46px] h-[29px] font-Inter text-2xl font-semibold text-neutral-800 cursor-pointer">
         aBit
       </div>
       <div className="flex space-x-4 items-center invisible md:visible">
