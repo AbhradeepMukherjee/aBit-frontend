@@ -27,7 +27,7 @@ const Dashboard = () => {
             <h1 className="text-base text-neutral-600 font-extrabold">317</h1>
             <p className="text-sm text-stone-550">Co-owner community</p>
           </div>
-          <div className="md:w-[85px] h-[70px] font-Inter border border-transparent border-l-neutral-400 md:pl-4 pl-1 spr-1">
+          <div className="md:w-[85px] h-[70px] font-Inter border border-transparent border-l-neutral-400 md:pl-4 pl-1 pr-1">
             <h1 className="text-base text-neutral-600 font-extrabold">$3804</h1>
             <p className="text-sm text-stone-550">Co-owner Earnings</p>
           </div>
