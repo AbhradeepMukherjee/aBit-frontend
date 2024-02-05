@@ -22,7 +22,7 @@ const Profile = ({ imageUrl, title, channel }) => {
           </h4>
         </div>
         <div className="flex md:mt-5 mt-2">
-            <button className="md:w-[135px] w-[70px] h-[29px] -mr-2 bg-cover text-sm text-zinc-800 flex items-center justify-center font-serif font-normal border-black focus:border-black hover:border-black z-10" style={{backgroundImage: 'url("../../public/header.jpg")'}}>Creator</button>
+            <button className="md:w-[135px] w-[70px] h-[29px] -mr-2 bg-cover text-sm text-zinc-800 flex items-center justify-center font-serif font-normal border-black focus:border-black hover:border-black z-10" style={{backgroundImage: `url(${header})`}}>Creator</button>
             <div className="md:w-[135px] w-[70px] h-[29px] -ml-2 border bg-zinc-850 bg-opacity-65 rounded-lg border-black hover:border-black focus:border-black"></div>
         </div>
       </div>
