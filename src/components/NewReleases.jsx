@@ -5,7 +5,7 @@ import Dashboard from "./Dashboard";
 const NewReleases = () => {
   const releases = [{
     title: "The Sound of Silence",
-    imageUrl: "../../public/releaseCover.png",
+    imageUrl: "/public/releaseCover.png",
     shares: "317",
     offered: "75%",
     raised: "$9510"
